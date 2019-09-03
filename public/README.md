@@ -18,11 +18,11 @@ utools 插件, 用于提供一些与浏览器相关的功能, 为隐藏或需要
 传送门 → [Bools](https://github.com/lanyuanxiaoyao/Bools)
 
 <div>
-  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/lanyuanxiaoyao/Bools">
-  <img alt="GitHub release version" src="https://img.shields.io/github/release/lanyuanxiaoyao/Bools">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lanyuanxiaoyao/Bools">
-  <img alt="GitHub" src="https://img.shields.io/github/license/lanyuanxiaoyao/Bools">
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/lanyuanxiaoyao/Bools">
+  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/lanyuanxiaoyao/Mverything">
+  <img alt="GitHub release version" src="https://img.shields.io/github/release/lanyuanxiaoyao/Mverything">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lanyuanxiaoyao/Mverything">
+  <img alt="GitHub" src="https://img.shields.io/github/license/lanyuanxiaoyao/Mverything">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/lanyuanxiaoyao/Mverything">
 </div>
 
 # 操作

@@ -1,0 +1,246 @@
+{
+  "pluginName": "Bools",
+  "author": "lanyuanxiaoyao",
+  "homepage": "http://lanyuanxiaoyao.com",
+  "description": "浏览器工具, Broswer tools",
+  "version": "0.0.1",
+  "logo": "logo.png",
+  "main": "index.html",
+  "preload": "preload.js",
+  "platform": ["darwin"],
+  "pluginSetting": {
+    "single": true,
+    "height": 1
+  },
+  "features": [{
+    "code": "chrome_url",
+    "explain": "Chrome 网址转二维码",
+    "cmds": [{
+      "type": "window",
+      "label": "转换当前网址为二维码",
+      "match": {
+        "app": "/.*chrome.*/i"
+      }
+    }]
+  },{
+    "code": "chrome_remove_img",
+    "explain": "移除页面上所有的 img 标签",
+    "cmds": [{
+      "type": "window",
+      "label": "移除页面图片",
+      "match": {
+        "app": "/.*chrome.*/i"
+      }
+    }]
+  }, {
+    "code": "chrome_open_chrome://extensions/",
+    "explain": "打开 Chrome 插件管理页面",
+    "cmds": [{
+      "type": "window",
+      "label": "插件管理",
+      "match": {
+        "app": "/.*chrome.*/i"
+      }
+    }]
+  },{
+    "code": "chrome_open_https://chrome.google.com/webstore/category/extensions",
+    "explain": "打开 Chrome 插件商店",
+    "cmds": [{
+      "type": "window",
+      "label": "插件商店",
+      "match": {
+        "app": "/.*chrome.*/i"
+      }
+    }]
+  }, {
+    "code": "chrome_open_chrome://flags/",
+    "explain": "打开 Chrome 插功能特性页面",
+    "cmds": [{
+      "type": "window",
+      "label": "功能特性",
+      "match": {
+        "app": "/.*chrome.*/i"
+      }
+    }]
+  }, {
+    "code": "chrome_open_chrome://downloads/",
+    "explain": "打开 Chrome 下载管理页面",
+    "cmds": [{
+      "type": "window",
+      "label": "下载管理",
+      "match": {
+        "app": "/.*chrome.*/i"
+      }
+    }]
+  }, {
+    "code": "chrome_open_chrome://settings/clearBrowserData",
+    "explain": "清除 Chrome 痕迹",
+    "cmds": [{
+      "type": "window",
+      "label": "清除痕迹",
+      "match": {
+        "app": "/.*chrome.*/i"
+      }
+    }]
+  }, {
+    "code": "chrome_open_chrome://restart/",
+    "explain": "重启 Chrome",
+    "cmds": [{
+      "type": "window",
+      "label": "重启",
+      "match": {
+        "app": "/.*chrome.*/i"
+      }
+    }]
+  }, {
+    "code": "safari_url",
+    "explain": "Safari 网址转二维码",
+    "cmds": [{
+      "type": "window",
+      "label": "转换当前网址为二维码",
+      "match": {
+        "app": "/.*safari.*/i"
+      }
+    }]
+  },{
+    "code": "safari_open_extension",
+    "explain": "打开 Safari 插件管理页面",
+    "cmds": [{
+      "type": "window",
+      "label": "插件管理",
+      "match": {
+        "app": "/.*safari.*/i"
+      }
+    }]
+  },{
+    "code": "safari_open_https://apps.apple.com/cn/story/id1377753262",
+    "explain": "打开 Safari 插件商店",
+    "cmds": [{
+      "type": "window",
+      "label": "插件商店",
+      "match": {
+        "app": "/.*safari.*/i"
+      }
+    }]
+  }, {
+    "code": "firefox_url",
+    "explain": "Firefox 网址转二维码",
+    "cmds": [{
+      "type": "window",
+      "label": "转换当前网址为二维码",
+      "match": {
+        "app": "/.*firefox.*/i"
+      }
+    }]
+  }, {
+    "code": "firefox_open_about:performance",
+    "explain": "打开 firefox 任务管理页面",
+    "cmds": [{
+      "type": "window",
+      "label": "任务管理器",
+      "match": {
+        "app": "/.*firefox.*/i"
+      }
+    }]
+  }, {
+    "code": "firefox_open_about:addons",
+    "explain": "打开 firefox 插件管理页面",
+    "cmds": [{
+      "type": "window",
+      "label": "插件管理",
+      "match": {
+        "app": "/.*firefox.*/i"
+      }
+    }]
+  },{
+    "code": "firefox_open_https://addons.mozilla.org/zh-CN/firefox/",
+    "explain": "打开 firefox 插件商店",
+    "cmds": [{
+      "type": "window",
+      "label": "插件商店",
+      "match": {
+        "app": "/.*firefox.*/i"
+      }
+    }]
+  }, {
+    "code": "opera_url",
+    "explain": "Opera 网址转二维码",
+    "cmds": [{
+      "type": "window",
+      "label": "转换当前网址为二维码",
+      "match": {
+        "app": "/.*opera.*/i"
+      }
+    }]
+  }, {
+    "code": "opera_open_opera://extensions",
+    "explain": "打开 Opera 插件管理页面",
+    "cmds": [{
+      "type": "window",
+      "label": "插件管理",
+      "match": {
+        "app": "/.*opera.*/i"
+      }
+    }]
+  }, {
+    "code": "opera_open_https://addons.opera.com/zh-cn/extensions/",
+    "explain": "打开 Opera 插件商店",
+    "cmds": [{
+      "type": "window",
+      "label": "插件商店",
+      "match": {
+        "app": "/.*opera.*/i"
+      }
+    }]
+  }, {
+    "code": "yandex_url",
+    "explain": "Yandex 网址转二维码",
+    "cmds": [{
+      "type": "window",
+      "label": "转换当前网址为二维码",
+      "match": {
+        "app": "/.*yandex.*/i"
+      }
+    }]
+  }, {
+    "code": "yandex_open_browser://tune/",
+    "explain": "打开 Yandex 插件管理页面",
+    "cmds": [{
+      "type": "window",
+      "label": "插件管理",
+      "match": {
+        "app": "/.*yandex.*/i"
+      }
+    }]
+  }, {
+    "code": "yandex_open_https://addons.opera.com/ru/extensions/",
+    "explain": "打开 Yandex 插件商店",
+    "cmds": [{
+      "type": "window",
+      "label": "插件商店",
+      "match": {
+        "app": "/.*yandex.*/i"
+      }
+    }]
+  }, {
+    "code": "yandex_open_browser://downloads/",
+    "explain": "打开 Yandex 下载管理页面",
+    "cmds": [{
+      "type": "window",
+      "label": "下载管理",
+      "match": {
+        "app": "/.*yandex.*/i"
+      }
+    }, {
+      "code": "yandex_open_browser://settings/clearBrowserData",
+      "explain": "清除 Yandex 痕迹",
+      "cmds": [{
+        "type": "window",
+        "label": "清除痕迹",
+        "match": {
+          "app": "/.*yandex.*/i"
+        }
+      }]
+    }]
+  }]
+}
