@@ -1,7 +1,6 @@
 # Btools
 utools 插件, 用于提供一些与浏览器相关的功能, 为隐藏或需要多步操作的功能提供快捷方式.
 
-*我手头只有 macOS, 尽管为跨平台做了铺垫, 但是由于精力有限, windows 平台的适配将放在后面, linux, 额, 再说吧.*
 *特别说明: 由于不同的浏览器支持程度不同, 一个功能不一定能在所有浏览器中都能实现.*
 
 # 版本
@@ -10,7 +9,7 @@ utools 插件, 用于提供一些与浏览器相关的功能, 为隐藏或需要
   2. 快捷打开下载, 插件, 商店等页面
 
 # 下载
-[插件主页](https://yuanliao.info/d/595/13) - [下载最新版](https://github.com/lanyuanxiaoyao/Bools/releases/latest) - [历史版本](https://github.com/lanyuanxiaoyao/Bools/releases)
+[插件主页](https://yuanliao.info/d/652) - [下载最新版](https://github.com/lanyuanxiaoyao/Bools/releases/latest) - [历史版本](https://github.com/lanyuanxiaoyao/Bools/releases)
 
 # 源码
 没啥好敝帚自珍的.
